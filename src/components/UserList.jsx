@@ -19,7 +19,7 @@ useEffect(() => {
         console.log(error);
     });
 
-    }, [])
+    }, [state])
 
     return (
         <>
@@ -35,7 +35,7 @@ useEffect(() => {
                     <Table striped bordered hover className='shadow-lg text-center'>
                        <thead>
                         <tr>
-                       <th>SNO</th>
+                       <th>Number</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Website</th>
